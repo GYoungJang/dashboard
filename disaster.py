@@ -8,12 +8,9 @@ st.set_page_config(page_title='안전장비 착용률',
                     layout='wide'
                     )
 
-@st.cache
-def get_data_from_csv():
-    df = pd.read_csv('/Users/geunyoungjang/Desktop/dashboard/통계.csv')
-    return df
 
-df = get_data_from_csv()
+
+df = pd.read_csv('/Users/geunyoungjang/Desktop/dashboard/통계.csv')
 
 
 

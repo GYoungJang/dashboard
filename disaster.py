@@ -10,7 +10,7 @@ st.set_page_config(page_title='안전장비 착용률',
 
 
 
-df = pd.read_csv('/Users/geunyoungjang/Desktop/dashboard/통계.csv')
+df = pd.read_csv('/Users/geunyoungjang/Desktop/dashboard/data/통계.csv')
 
 
 
